@@ -14,8 +14,8 @@ class ChatBot(object):
 
     # 초기화
     def __init__(self):
-        self.FACEBOOK_TOKEN = 'EAAHi2ACcHRsBANXBgdZAr5khS7GvIqahLf8g7MUSed0GZAYMRplYyvQNMAroh8oDlLHoHAno23k8KqgaA6FaVvMhvfYqOCOspIXsqP4pIdr7WYrHg1zLgXY1qMYDFfeSHGvrhQTXdnUybUla35PkZAnC8TpahdMLvM4dS2sqbkZAaDwWEcsJZCgJMMktStCUZD'
-        self.VERIFY_TOKEN = 'test_string'
+        self.FACEBOOK_TOKEN = 'FACEBOOK_TOKEN'
+        self.VERIFY_TOKEN = 'VERIFY_TOKEN'
         self.FBM_API = "https://graph.facebook.com/v2.6/me/messages"
         self.fbm_processed = []
 
