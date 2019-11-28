@@ -7,7 +7,7 @@ Transformer simsim chatbot
 
 
 # What You Need
-1. Python 3.7, flask
-2. facebook Messenger API
-3. computer with Wonderful GPUs
-4. Ngrok
+1. Python 3.7, flask, Tensorflow up to 1.14, numpy, scipy, ipython, pyCharm
+2. facebook Messenger API, webhook
+3. computer with Wonderful GPUs(up to rtx2070)
+4. Ngrok(localhost Tunneling...)
