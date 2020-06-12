@@ -15,7 +15,7 @@ tf.app.flags.DEFINE_integer('max_sequence_length', 25, 'max sequence length')  #
 tf.app.flags.DEFINE_integer('model_hidden_size', 256, 'model weights size')  # 모델 가중치 크기 128 -> 256
 tf.app.flags.DEFINE_integer('ffn_hidden_size', 512, 'ffn weights size')  # ffn 가중치 크기 ->512
 tf.app.flags.DEFINE_integer('attention_head_size', 4, 'attn head size')  # 멀티 헤드 크기
-tf.app.flags.DEFINE_integer('layer_size', 3, 'layer size')  # 논문은 6개 레이어이나 3개가 시퀀스 생성에 적절함, 심심이로 쓰기에 적절: 적절한
+tf.app.flags.DEFINE_integer('layer_size', 3, 'layer size')  # 논문은 6개 레이어이나 3개가 시퀀스 생성에 적절함,대화 이해 잘함
 tf.app.flags.DEFINE_string('data_path', 'data_in/ChatBotData.csv', 'data path')  # 데이터 위치
 tf.app.flags.DEFINE_string('vocabulary_path', 'data_out/vocabularyData.voc', 'vocabulary path')  # 사전 위치
 tf.app.flags.DEFINE_string('check_point_path', 'data_out/check_point', 'check point path')  # 체크 포인트 위치
