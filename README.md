@@ -11,8 +11,7 @@ Transformer simsim chatbot
 1. Python 3.7, flask, Tensorflow>=1.14, numpy, konlpy, ipython
 2. facebook Messenger API, webhook
 3. Ngrok(secure tunneling) or SSL cert over flask
-4. 아직 SSL cert 미승인으로 인해 페이스북 페이지 연결 지연되고 있습니다...
-5. konlpy 버그로 인해 NLU 진행이 더디고 있습니다...
+4. 아직 SSL cert 미승인으로 인해 페이스북 페이지, 프론트엔드와 연결 지연되고 있습니다...
 
 # 테스트 장면들입니다.
 
